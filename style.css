@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(175, 179, 184);
+    font-family: Arial, Helvetica, sans-serif;
+}
+form, div{
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid #333;
+}
+input, label, select{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    margin: 15px auto;
+    width: 25%;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+input, select {
+    border: 1px solid black;
+}
+input[type="submit"]{
+    height: 40px;
+    font-weight: light;
+    color: rgb(233, 218, 195);
+    background: rgb(18, 28, 59);
+}
+
+label{
+    font-size: 20px;
+    color: #333;
+}
+
+select, option{
+    width: 150px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(233, 218, 195);
+    background: rgb(18, 28, 59);
+}
+
+input:hover, select:hover {
+    box-shadow: 0px 5px 10px  black;
+    border: 2px solid tan;
+    border-radius: 7px;
+    transition: all 0.6s ease-in-out;
+}
